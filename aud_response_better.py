@@ -8,7 +8,7 @@ import re
 from datetime import datetime
 
 # Configure Gemini API
-gen_ai.configure(api_key="AIzaSyDQ_P3Usooh71JNUQhgfMbUc2e0ZSY6N_o")
+gen_ai.configure(api_key="")
 gemini = gen_ai.GenerativeModel("gemini-1.5-flash")
 
 def upload_image_to_gemini(image_path):
