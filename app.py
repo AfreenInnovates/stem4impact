@@ -13,7 +13,7 @@ import numpy as np
 import base64
 import re
 
-GOOGLE_API_KEY = "AIzaSyDQ_P3Usooh71JNUQhgfMbUc2e0ZSY6N_o"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 gemini = genai.GenerativeModel("gemini-1.5-flash")
 
