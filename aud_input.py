@@ -10,7 +10,7 @@ import speech_recognition as sr
 from streamlit_webrtc import webrtc_streamer, AudioProcessorBase, WebRtcMode
 
 # Configure Gemini API
-gen_ai.configure(api_key="AIzaSyDQ_P3Usooh71JNUQhgfMbUc2e0ZSY6N_o")
+gen_ai.configure(api_key="")
 gemini = gen_ai.GenerativeModel("gemini-1.5-flash")
 
 # Speech-to-text helper functions
